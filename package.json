@@ -1,6 +1,6 @@
 {
-  "name": "@swimlane/ngx-dnd",
-  "version": "2.2.0",
+  "name": "@slothink/ngx-dnd",
+  "version": "2.2.1",
   "description": "Drag and Drop for Angular2 and beyond!",
   "main": "release/index.js",
   "typings": "release/index.d.ts",
@@ -38,7 +38,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/swimlane/ngx-dnd.git"
+    "url": "git+https://github.com/slothink/ngx-dnd.git"
   },
   "keywords": [
     "angular2",
@@ -52,9 +52,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/swimlane/ngx-dnd/issues"
+    "url": "https://github.com/slothink/ngx-dnd/issues"
   },
-  "homepage": "https://github.com/swimlane/ngx-dnd#readme",
+  "homepage": "https://github.com/slothink/ngx-dnd#readme",
   "peerDependencies": {
     "@angular/animations": "^4.2.6",
     "@angular/common": "~4.2.6",
