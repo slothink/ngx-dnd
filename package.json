@@ -1,6 +1,6 @@
 {
   "name": "@slothink/ngx-dnd",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "Drag and Drop for Angular2 and beyond!",
   "main": "release/index.js",
   "typings": "release/index.d.ts",
@@ -28,7 +28,7 @@
     "release": "npm-run-all build:release",
     "np": "npm run package && np",
     "package": "npm-run-all -s clean package:aot build:package package:replace package:minify",
-    "package:tscf": "tsc --outDir release",
+    "package:ts": "tsc --outDir release",
     "package:aot": "ngc -p tsconfig-aot.json",
     "package:replace": "node ./config/replace.js",
     "package:replace-scss": "node ./config/replace-scss.js",
@@ -64,7 +64,7 @@
     "@angular/platform-browser-dynamic": "4.4.5",
     "core-js": "2.5.1",
     "rxjs": ">= 5.0.3",
-    "zone.js": "^0.7.6"
+    "zone.js": "^0.8.18"
   },
   "devDependencies": {
     "@angular/animations": "4.4.5",
@@ -135,7 +135,7 @@
     "webpack-dev-server": "^2.2.0",
     "webpack-merge": "^2.4.0",
     "webpack-notifier": "^1.5.0",
-    "zone.js": "^0.7.6"
+    "zone.js": "^0.8.18"
   },
   "dependencies": {
     "dragula": "^3.7.2"
